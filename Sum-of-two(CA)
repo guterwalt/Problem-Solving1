@@ -2,10 +2,14 @@ var math = 3+5;
 console.log(math);
 
 for (var mathTwo = 40; mathTwo > 0; mathTwo -= 10) {
-console.log(mathTwo);
+    console.log(mathTwo);
 };
-for (var 
 
+for (var mathThree = 5; mathThree < 9; mathThree++) {
+    console.log(mathThree);
+};
 
+answer = math + mathTwo + mathThree
+console.log(answer)
 
 
