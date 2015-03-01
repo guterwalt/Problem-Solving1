@@ -21,5 +21,39 @@ for (var j = 0; j < 1000; j +=3) {
 };
 console.log([i]+[j]);
    
+AAARGH!!! 
 
+
+   sum = 0;
+
+for (var i = 0; i < 1000; i++) { 
+    if (i%3 === 0) {
+        sum = sum + i;
+ console.log(i);    
+    };
+};
+
+summer = 0;
+
+for (var j = 0; j < 1000; j++) { 
+    if (j%5 === 0) {
+        summer = summer + j;
+    console.log(j);
+    };
+};
+
+console.log(sum + summer);
+
+
+THIISS WORKS::::
+
+var sum = 0;
+
+for(var i = 0; i < 1000; i++) {
+  if(i % 3 == 0 || i % 5 == 0) {
+    sum += i;
+  }
+}
+
+console.log(sum);
 
